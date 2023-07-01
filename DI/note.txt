@@ -1,0 +1,11 @@
+Dependency Injection (DI) | Constractor, pada bahasa OOP
+
+ex:
+categoryService := service.NewCategoryService(categoryRepository, db, validate)
+
+keterangan:
+    categoryService                     : merupakan object
+    categoryRepository, db, validate    : merupakan Dependency yang dibutuhkan
+
+
+library: google wire
